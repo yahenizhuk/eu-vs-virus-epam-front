@@ -1,13 +1,13 @@
 import React, { Fragment, useEffect } from "react";
 import PropTypes from 'prop-types';
 import Container from "reactstrap/lib/Container";
-import { ReportSymptomsButton } from "./report-symptoms-button";
 import {FooterNav} from "../shared/footer-nav";
 import {Header} from "../shared/header/header";
 import {ProofIdentityButton} from "./proof-identity-button/poof-identity-button";
 import {Link} from "react-router-dom";
 import {ImmunitiesListExtended} from "../immunities/immunities-list-extended";
 import {HeaderBlockHome} from "./header-block-home/header-block-home";
+import {CommonButton} from "../shared/common-button/common-button";
 
 export function Home({ immunities, getImmunities, user }) {
   useEffect(() => {
@@ -38,7 +38,12 @@ export function Home({ immunities, getImmunities, user }) {
           <ImmunitiesListExtended immunities={immunities} limited={immunities.length > 3}/>
         )}
       </Container>
-      <ReportSymptomsButton />
+      <div className="pt-5">
+        <CommonButton>
+          <div className="py-1 font-weight-bold">Feeling unwell?</div>
+          <div className="py-1">Report your symptoms</div>
+        </CommonButton>
+      </div>
       <FooterNav />
     </Fragment>
   )
