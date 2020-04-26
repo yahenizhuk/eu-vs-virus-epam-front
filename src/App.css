@@ -8,6 +8,10 @@
   url('fonts/open-sans-v17-latin-regular.woff') format('woff') /* Modern Browsers */
 }
 
+body {
+  background-color: #F5F8F7!important;
+}
+
 .health-passport-app {
   background-color: #F5F8F7;
   color: #161719;
@@ -18,7 +22,6 @@
   padding-right: 24px;
 }
 
-.footer-nav {
-  position: absolute;
-  bottom: 0;
+.link {
+  color: #238180;
 }

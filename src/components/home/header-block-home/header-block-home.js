@@ -3,9 +3,9 @@ import {InfoTooltip} from "../../shared/info-tooltip";
 import Row from "reactstrap/lib/Row";
 import React from "react";
 
-import "./header-block.css";
+import "./header-block-home.css";
 
-export function HeaderBlock() {
+export function HeaderBlockHome() {
   return (
     <Row className="home-header-block">
       <Col xs={2}>
@@ -14,7 +14,7 @@ export function HeaderBlock() {
         </svg>
       </Col>
       <Col xs={8}>
-        <h2>Health pass</h2>
+        <h4>Immunisation Pass</h4>
       </Col>
       <Col xs={2} >
         <div className="pt-1">

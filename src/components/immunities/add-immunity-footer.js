@@ -1,12 +1,11 @@
 import React from "react";
-import Jumbotron from "reactstrap/lib/Jumbotron";
-import "./add-immunity-footer.css"
+import Container from "reactstrap/lib/Container";
 
 export function AddImmunityFooter() {
   return (
-    <Jumbotron className="footer-nav h-25">
+    <Container className="footer-nav h-25">
       <p className="mb-0">Something missing from this list?</p>
-      <p className="font-weight-bolder pt-0">Tell us if you are immune to an infection</p>
-    </Jumbotron>
+      <p className="font-weight-bolder pt-0 font-weight-bolder link">Tell us if you are immune to an infection ></p>
+    </Container>
   )
 }

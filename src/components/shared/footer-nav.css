@@ -1,3 +1,7 @@
+.footer-nav {
+    position: fixed;
+    bottom: 0;
+}
 footer.footer-nav .nav-icon.active {
     color: #238180;
 }
