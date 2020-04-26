@@ -1,0 +1,17 @@
+button.report-symptoms-btn.btn-secondary {
+    background-color: rgba(163, 225, 225, 0.34);
+    mix-blend-mode: normal;
+    border-radius: 8px;
+    color: #212121;
+    border: none;
+}
+button.report-symptoms-btn.btn-secondary:hover {
+    background-color: rgb(163, 225, 225);
+}
+button.report-symptoms-btn.btn-secondary:focus {
+    background-color: rgb(163, 225, 225);
+}
+button.report-symptoms-btn.btn-secondary:active {
+    background-color: rgb(163, 225, 225);
+}
+

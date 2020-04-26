@@ -1,0 +1,6 @@
+.header.jumbotron {
+    background: #9AD6B8;
+    border-bottom-left-radius: 50% 8%;
+    border-bottom-right-radius: 50% 8%;
+    min-height: 180px;
+}
