@@ -1,0 +1,17 @@
+.verification-page .qr-code {
+    border: 24px solid #07AAA8;
+    border-radius: 50%;
+    width: 315px;
+    height: 315px;
+}
+.verification-page .alert {
+    background: #07AAA8;
+    color: #FFFFFF;
+}
+.verification-page .alert-container {
+    top: 130px;
+}
+
+.verification-page .verification-footer {
+    background-color: rgba(163, 225, 225, 0.34);
+}

@@ -8,11 +8,15 @@ import {
 import { HomeContainer } from "./containers/home-container/home-container";
 import {ImmunitiesContainer} from "./containers/immunities-container/immunities-container";
 import {ImmunityDetailsContainer} from "./containers/immunity-details-container";
+import {VerificationContainer} from "./containers/verification-container";
 
 export function AppRouter(){
   return (
     <Router>
       <Switch>
+        <Route path="/verification" exact>
+          <VerificationContainer />
+        </Route>
         <Route path="/immunities-details/:type" exact>
           <ImmunityDetailsContainer />
         </Route>
