@@ -17,7 +17,7 @@ export function ImmunityItemExtended({ name, valid, validFor }) {
           </Col>
           <Col xs={4} className="text-right pt-2">
             <div className="small">Valid until</div>
-            <div className="font-weight-bolder">{validFor}</div>
+            <div className="font-weight-bolder">{valid ? validFor : "N/A"}</div>
           </Col>
           <Col xs={2} className="d-flex justify-content-end align-items-center">
             <svg width="10" height="20" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">

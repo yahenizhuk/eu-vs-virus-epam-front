@@ -33,7 +33,7 @@ function ImmunityDetailsUI({ getImmunityDetails, user, match, getDiseaseInfo, di
             <ValidityMark valid={immunityDetails.tested} />
 
             <div className="font-weight-bold">Vaccination</div>
-            <div>{immunityDetails.certDate || "N/A"}</div>
+            <div>{immunityDetails.tested ? immunityDetails.certDate : "N/A"}</div>
 
 
             <div className="font-weight-bold pt-3">Tested</div>
